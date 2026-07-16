@@ -20,7 +20,7 @@ spec:
       containers:
       - name: ai-api
 
-        image: ai-api:v1
+        image: ai-api:v4
 
         imagePullPolicy: Never
 
