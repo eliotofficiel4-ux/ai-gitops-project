@@ -3,7 +3,6 @@ kind: Application
 
 metadata:
   name: ai-api
-
   namespace: argocd
 
 spec:
@@ -11,7 +10,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/TON_USERNAME/ai-gitops-project.git
+    repoURL: https://github.com/eliotofficiel4-ux/ai-gitops-project.git
     targetRevision: master
     path: k8s
 

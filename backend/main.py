@@ -11,11 +11,7 @@ class Question(BaseModel):
 
 @app.get("/")
 def home():
-    return {
-        "message": "Bienvenue sur AI GitOps API V4",
-        "version": "4.0",
-        "GitOps": "ArgoCD Synchronisation Automatique"
-    }
+    return {"message":"Version GitOps automatique v5"}
 
 @app.post("/chat")
 def chat(data: Question):
